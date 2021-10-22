@@ -1,0 +1,44 @@
+#title{
+    color: grey;
+}
+
+label{
+    color:blue;
+}
+
+#loginID{
+    color: brown;
+    border: 5px solid;
+}
+
+#password{
+    color:brown;
+    border: 5px solid blue;
+}
+
+#ok{
+ color:green;
+}
+
+#cancel{
+    color: red;
+}
+#formdiv{
+    text-align: right;
+    /* margin: auto; */
+}
+form{
+    border: 5px solid red;
+    /* margin-right: auto;
+    margin-left: auto; */
+    width: 30%;
+    margin: 0% auto 0% auto;
+    padding: 5%;
+    
+}
+input:hover{
+    background-color: pink;
+}
+img{
+    width: 300px;
+}

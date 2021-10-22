@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab01 Shahzaib Ansari</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Login form</h1>
+    <div>
+        <form action="https://www.example.com">
+            <div id="formdiv">
+            <label for="loginID">Login ID:</label><br>
+            <input type="text" id="loginID" name="loginID" value="" required><br>
+            <br>
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password" value="" required><br>
+            <label for="checkbox">Remember me</label><br>
+            <input type="checkbox" id="checkbox" name="checkbox" value="" required><br>
+            <br>
+            <input id="ok" type="button" value="OK"  onClick=" validateinput();"/>
+            <input id="cancel" type="button" value="Cancel" onClick="btncancel();" />
+            <input id="login" type="button" value="Login" onClick="loginf();" />
+            
+        </div>
+        <div id="imgdiv"><img src="./image1.PNG" alt=""></div>
+        </form>
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
